@@ -1,0 +1,31 @@
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\appsettings.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.staticwebassets.runtime.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.exe
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.deps.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.runtimeconfig.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.pdb
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.AssemblyInfoInputs.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.AssemblyInfo.cs
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.csproj.CoreCompileInputs.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.RazorAssemblyInfo.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.RazorAssemblyInfo.cs
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.sourcelink.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.DotNet Playground.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNet Playground.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNet Playground.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNet Playground.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\bundle\DotNet Playground.styles.css
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\projectbundle\DotNet Playground.bundle.scp.css
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\refint\DotNet Playground.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.pdb
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.genruntimeconfig.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\ref\DotNet Playground.dll
