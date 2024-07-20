@@ -1,0 +1,292 @@
+﻿@{
+    ViewData["Title"] = "Connection String";
+}
+@{
+    var data = TempData["Message"] as string;
+    if (data != null)
+    {
+           <script>
+               Swal.fire({
+                   text: '@data',
+                   confirmButtonText: 'OK'
+               }).then(function () {
+                   ViewData["Title"] = null;
+               });
+           </script>
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div id="MainPage">
+        <div id="ConnectionStrings" class="FormDesign">
+            <form asp-controller="Home" asp-action="CreateConnectionString" method="post" id="connectionForm">
+                <div style="display:flex; justify-content: space-between;">
+                    <div class="toggle-switch">
+                        <div class="options">
+                            <span class="option" id="sqlserver">MsSQL</span>
+                            <input type="checkbox" id="db-toggle" name="ForMySql">
+                            <label for="db-toggle" class="switch">
+                                <span class="slider"></span>
+                            </label>
+                            <span class="option" id="mysql">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div id="FomChoice">
+                        <label for="FormChoice">Fill with form <span><input type="checkbox" id="FormChoice" name="FormChoice" onclick="EnterMannually();"></span> </label>
+                    </div>
+
+                </div>
+
+                <label for="conn">ConnectionString Name:</label>
+                <input type="text" id="conn" class="field-Width" name="conn" required>
+
+                <label for="mannual" class="manual-yes">Enter ConnectionString Manually:</label>
+                <input type="text" id="mannual" class="manual-yes field-Width" name="mannual">
+
+                <label for="serv" class="manual-no">Server Name:</label>
+                <input type="text" id="serv" class="manual-no" name="serv">
+
+                <label for="db" class="manual-no">DataBase Name:</label>
+                <input type="text" id="db" class="manual-no field-Width" name="db">
+
+                <label for="ids" class="manual-no">ID:</label>
+                <input type="text" id="ids" class="manual-no field-Width" name="id">
+
+                <label for="pass" class="manual-no">Password:</label>
+                <input type="password" id="pass" class="manual-no field-Width" name="pass">
+
+                <button class="theme-radial-gradient" type="submit" onclick="return validteForm();">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    $('.manual-yes').css('display', 'none');
+    $('#HeaderChange').html('Dynamic ConnectionString');
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const toggleSwitch = document.getElementById('db-toggle');
+        const sqlServerOption = document.getElementById('sqlserver');
+        const mysqlOption = document.getElementById('mysql');
+
+        // Set initial active option based on checkbox state
+        updateActiveOption(toggleSwitch.checked);
+
+        // Event listener for toggle switch
+        toggleSwitch.addEventListener('change', () => {
+            updateActiveOption(toggleSwitch.checked);
+        });
+
+        function updateActiveOption(isChecked) {
+            if (isChecked) {
+                mysqlOption.classList.add('active');
+                sqlServerOption.classList.remove('active');
+            } else {
+                sqlServerOption.classList.add('active');
+                mysqlOption.classList.remove('active');
+            }
+        }
+    });
+
+    function EnterMannually() {
+        var checkBox = document.getElementById("FormChoice");
+
+        if (checkBox.checked == true) {
+            $('.manual-no').css('display', 'none');
+            $('.manual-yes').css('display', 'block');
+            document.getElementById('db-toggle').disabled = true;
+        } else {
+            $('.manual-no').css('display', 'block');
+            $('.manual-yes').css('display', 'none');
+            document.getElementById('db-toggle').disabled = false;
+        }
+    }
+    
+    function validteForm() {
+        const toggle = document.getElementById('db-toggle').checked; // Use .checked for checkboxes
+        const formChoice = document.getElementById('FormChoice').checked;
+        const conn = document.getElementById('conn').value;
+        const mannal = document.getElementById('mannual').value;
+        const serv = document.getElementById('serv').value;
+        const db = document.getElementById('db').value;
+        const ids = document.getElementById('ids').value;
+        const pass = document.getElementById('pass').value;
+       
+        if (formChoice == true) {
+            if (mannal == '') {
+                Swal.fire('Please Enter ConnectionString Manually');
+                return false; // Prevent form submission
+            }
+        } else {
+            if (serv == '' || db == '' || pass == '' || ids == '') {
+                Swal.fire('All fields are required');
+                return false;
+            }
+        }
+       
+        // If all validations pass
+        return true;
+    }
+
+</script>
+
+<style>
+    :root {
+        --finwallapp-green: #00dfa3;
+        --finwallapp-red: #f73563;
+        --finwallapp-yellow: #ffbd17;
+        --finwallapp-blue: #3c63e2;
+        --finwallapp-rounded: 20px;
+        --finwallapp-padding: 15px;
+        --finwallapp-input-rounded: 10px;
+        --finwallapp-theme-color-grad-1: #57bdff;
+        --finwallapp-theme-color-grad-2: #4f77fb;
+        --finwallapp-theme-color-grad-3: #6528cf;
+        --finwallapp-theme-color: #6500d8;
+        --finwallapp-theme-text: #ffffff;
+        --finwallapp-theme-text-primary: #000000;
+        --finwallapp-theme-text-secondary: #000000;
+        --finwallapp-theme-text-secondary-light: #212529;
+        --finwallapp-theme-bordercolor: rgba(0, 0, 0, 0.1);
+        --finwallapp-header: transparent;
+        --finwallapp-header-active: #ffffff;
+        --finwallapp-footer: #ffffff;
+        --finwallapp-sidebar: var(--finwallapp-theme-color);
+        --finwallapp-card-color: #ffffff;
+        --finwallapp-page-bg-1: #ffffff;
+        --finwallapp-page-bg-2: #eff6f9;
+        --finwallapp-page-bg-3: #faf0fb;
+        --finwallapp-page-text: #000000;
+        --finwallapp-page-link: var(--finwallapp-theme-color);
+    }
+
+    .theme-radial-gradient {
+        background: -moz-radial-gradient(30% 30%, ellipse cover, var(--finwallapp-theme-color-grad-1) 0%, var(--finwallapp-theme-color-grad-2) 50%, var(--finwallapp-theme-color-grad-3) 100%);
+        background: -webkit-radial-gradient(30% 30%, ellipse cover, var(--finwallapp-theme-color-grad-1) 0%, var(--finwallapp-theme-color-grad-2) 50%, var(--finwallapp-theme-color-grad-3) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--finwallapp-theme-color-grad-1)', endColorstr='var(--finwallapp-theme-color-grad-3)',GradientType=1 );
+    }
+
+
+    #field-Width {
+        font-size: 75%;
+    }
+
+    .FormDesign {
+        display: block; /* Ensure the div is visible */
+        max-width: 400px; /* Adjust as per your layout */
+        margin: 0 auto; /* Center the form horizontally */
+        padding: 20px; /* Add padding inside the container */
+        border: 1px solid #ccc; /* Add a border for visibility */
+        background-color: #f9f9f9; /* Light background color */
+    }
+
+        .FormDesign label {
+            display: block; /* Display labels in block for stacking */
+        }
+
+        .FormDesign input[type="text"],
+        .FormDesign input[type="password"] {
+            width: 100%; /* Full width for input fields */
+            padding: 8px; /* Padding inside input fields */
+            margin-bottom: 15px; /* Space between input fields */
+            border: 1px solid #ccc; /* Border for input fields */
+            border-radius: 4px; /* Rounded corners for input fields */
+            box-sizing: border-box; /* Ensure padding and border are included in width */
+        }
+
+        .FormDesign button {
+            width: 100%; /* Full width for the button */
+            padding: 10px; /* Padding inside the button */
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text color */
+            border: none; /* No border */
+            border-radius: 4px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+
+            .FormDesign button:hover {
+                background-color: #45a049; /* Darker green on hover */
+            }
+
+    /* Toggle switch container */
+    .toggle-switch {
+        display: flex;
+        align-items: center;
+    }
+
+        /* Hide the default checkbox */
+        .toggle-switch input[type="checkbox"] {
+            display: none;
+        }
+
+    /* Toggle switch label styling */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 53px;
+        height: 27px;
+        margin-right: 0px;
+    }
+
+    /* Slider styling */
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: .4s;
+        border-radius: 34px;
+    }
+
+        /* Slider before pseudo-element styling */
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 23px;
+            width: 27px;
+            border-radius: 50%;
+            left: 4px;
+            bottom: 2.5px;
+            background-color: white;
+            transition: .4s;
+        }
+
+    /* Checkbox checked styling */
+    input:checked + .switch .slider {
+        background-color: #2196F3;
+    }
+
+        /* Checkbox checked slider styling */
+        input:checked + .switch .slider:before {
+            transform: translateX(20px);
+        }
+
+    /* Options container styling */
+    .options {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Individual option styling */
+    .option {
+        padding: 0 2px;
+        cursor: pointer;
+        user-select: none;
+        font-size: medium;
+    }
+
+    /* Style for active option */
+    .active {
+        font-weight: bold;
+    }
+</style>
