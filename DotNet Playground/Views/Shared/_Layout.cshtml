@@ -3,10 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - LDRC_reports</title>
+    <title>@ViewData["Title"] - .NET PlayGround</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/LDRC_reports.styles.css" asp-append-version="true" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
@@ -35,3 +34,41 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<style>
+    :root {
+        --finwallapp-green: #00dfa3;
+        --finwallapp-red: #f73563;
+        --finwallapp-yellow: #ffbd17;
+        --finwallapp-blue: #3c63e2;
+        --finwallapp-rounded: 20px;
+        --finwallapp-padding: 15px;
+        --finwallapp-input-rounded: 10px;
+        --finwallapp-theme-color-grad-1: #57bdff;
+        --finwallapp-theme-color-grad-2: #4f77fb;
+        --finwallapp-theme-color-grad-3: #6528cf;
+        --finwallapp-theme-color: #6500d8;
+        --finwallapp-theme-text: #ffffff;
+        --finwallapp-theme-text-primary: #000000;
+        --finwallapp-theme-text-secondary: #000000;
+        --finwallapp-theme-text-secondary-light: #212529;
+        --finwallapp-theme-bordercolor: rgba(0, 0, 0, 0.1);
+        --finwallapp-header: transparent;
+        --finwallapp-header-active: #ffffff;
+        --finwallapp-footer: #ffffff;
+        --finwallapp-sidebar: var(--finwallapp-theme-color);
+        --finwallapp-card-color: #ffffff;
+        --finwallapp-page-bg-1: #ffffff;
+        --finwallapp-page-bg-2: #eff6f9;
+        --finwallapp-page-bg-3: #faf0fb;
+        --finwallapp-page-text: #000000;
+        --finwallapp-page-link: var(--finwallapp-theme-color);
+    }
+
+    .theme-radial-gradient {
+        background: -moz-radial-gradient(30% 30%, ellipse cover, var(--finwallapp-theme-color-grad-1) 0%, var(--finwallapp-theme-color-grad-2) 50%, var(--finwallapp-theme-color-grad-3) 100%);
+        background: -webkit-radial-gradient(30% 30%, ellipse cover, var(--finwallapp-theme-color-grad-1) 0%, var(--finwallapp-theme-color-grad-2) 50%, var(--finwallapp-theme-color-grad-3) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--finwallapp-theme-color-grad-1)', endColorstr='var(--finwallapp-theme-color-grad-3)',GradientType=1 );
+    }
+
+</style>

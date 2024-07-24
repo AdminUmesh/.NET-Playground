@@ -1,0 +1,182 @@
+﻿@{
+    ViewData["Title"] = "Database Create";
+}
+@{
+    var data = TempData["Message"] as string;
+    if (data != null)
+    {
+      <script>
+          Swal.fire({
+              text: '@data',
+              confirmButtonText: 'OK'
+          }).then(function () {
+              ViewData["Title"] = null;
+          });
+      </script>
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div id="MainPage">
+        <div id="Database" class="FormDesign Database">
+            <div id="InnerDatabase">
+                <div>
+                    <form id="dbForm">
+                        <div style="display:flex;">
+                            <div style="width:80%;">
+                                <label for="conn2">Connection Strings:</label>
+                                <select name="conn2" id="conn2" onclick="SelectConnString()">
+                                    <option value="Empty">Choose Connection</option>
+                                </select>
+                            </div>
+                            <div>
+                                <lebel for="dbName">Database Name</lebel>
+                                <input type="text" id="dbName" name="dbName">
+                            </div>
+                        </div>
+
+                        <label for="tb1Name">Table1 Name:</label>
+                        <input type="text" id="tb1Name" class="field-Width" name="tb1Name" required>
+
+                        <label for="uname1">Your Name:</label>
+                        <input type="text" id="uname1" class="field-Width" name="uname1" required>
+
+                        <label for="dob1">DOB:</label>
+                        <input type="text" id="dob1" class="field-Width" name="dob1" required>
+
+                        <label for="id1">Id:</label>
+                        <input type="text" id="id1" class="field-Width" name="id1" required>
+
+                        <label for="pass1">Password:</label>
+                        <input type="password" id="pass1" class="field-Width" name="pass1" required>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <button onclick="CreateDb()" type="button" class="theme-radial-gradient">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    $('#HeaderChange').html('Create Dynamic DataBase');
+
+    function CreateDb() {
+        var dattaa = {
+            ConnectionString: $('#dbName').val(),
+            TableName: $('#tb1Name').val(),
+            Name: $('#uname1').val(),
+            DOB: $('#dob1').val(),
+            Id: $('#id1').val(),
+            Pass: $('#pass1').val()
+        };
+
+        $.ajax({
+            url: "../Home/CreateDb",
+            data: JSON.stringify(dattaa),
+            type: 'POST',
+            contentType: 'application/json; charset=utf-8',
+            success: function (response) {
+                alert('Success: ' + response.message);
+            },
+            error: function (xhr, status, error) {
+                alert('Failed: ' + xhr.responseText);
+            }
+        });
+    }
+
+    function SelectConnString() {
+        
+        $.ajax({
+            url: "../Home/SelectConnString",
+            type: 'GET',
+            contentType: 'application/json; charset=utf-8',
+            success: function (response) {
+                $('#conn2').html('');
+
+                // Initialize the options with "Choose connection" as the default
+                var connections = '<option value="">Choose connection</option>';
+
+                // Assuming 'response' is an object with connection names as keys
+                for (var connection in response) {
+                    connections += '<option value="' + connection + '">' + connection + '</option>';
+                }
+
+                // Append the constructed options to #conn2
+                $('#conn2').append(connections);
+
+            },
+            error: function (xhr, status, error) {
+                alert('Failed: ' + xhr.responseText);
+            }
+        });
+    }
+
+    $('#conn2').change(function () {
+        // Remove the default option if another option is selected
+        if ($(this).val() !== '') {
+            $(this).find('option[value=""]').remove();
+        }
+    });
+</script>
+
+<style>
+    #field-Width {
+        font-size: 75%;
+    }
+
+    .FormDesign {
+        display: block; /* Ensure the div is visible */
+        max-width: 400px; /* Adjust as per your layout */
+        margin: 0 auto; /* Center the form horizontally */
+        padding: 20px; /* Add padding inside the container */
+        border: 1px solid #ccc; /* Add a border for visibility */
+        background-color: #f9f9f9; /* Light background color */
+    }
+
+     .FormDesign label {
+         display: block; /* Display labels in block for stacking */
+     }
+
+     .FormDesign input[type="text"],
+     .FormDesign input[type="password"] {
+         width: 100%; /* Full width for input fields */
+         padding: 8px; /* Padding inside input fields */
+         margin-bottom: 15px; /* Space between input fields */
+         border: 1px solid #ccc; /* Border for input fields */
+         border-radius: 4px; /* Rounded corners for input fields */
+         box-sizing: border-box; /* Ensure padding and border are included in width */
+     }
+
+     .FormDesign button {
+         width: 100%; /* Full width for the button */
+         padding: 10px; /* Padding inside the button */
+         background-color: #4CAF50; /* Green background */
+         color: white; /* White text color */
+         border: none; /* No border */
+         border-radius: 4px; /* Rounded corners */
+         cursor: pointer; /* Pointer cursor on hover */
+     }
+
+     .FormDesign button:hover {
+         background-color: #45a049; /* Darker green on hover */
+     }
+
+    .Database {
+        background-color: aliceblue;
+    }
+
+    #dbName {
+        height: 33%;
+    }
+
+    .field-Width{
+        height: 75%;
+    }
+</style>
