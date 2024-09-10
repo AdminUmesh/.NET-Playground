@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Buttons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="nav-button" onclick="Firebase_Authentication();">Authentication</button>
+        <button class="nav-button" onclick="Firebase_Storage();">Storage</button>
+        <button class="nav-button" onclick="Firebase_Notification();">Notification</button>
+        <button class="nav-button" onclick="Firebase_RealtimeDb();">Realtime Database</button>
+    </nav>
+
+    <main id="main">
+        <h1>Welcome to the Page</h1>
+        <p>This is a simple page with basic features like firebase authentication, storage , realtime databse & notification.</p>
+    </main>
+
+    <div id="authenticate" style="display:none;">
+        <div id="MainPage">
+            <h5>Firebase User Authentication</h5>
+            <div id="Outer" class="FormDesign Outer">
+                <div id="Inner">
+                    <div>
+                        <form id="Form">
+                            <label for="email">email:</label>
+                            <input type="email" id="email" class="field-Width" name="email" required>
+
+                            <label for="password">password:</label>
+                            <input type="password" id="password" class="field-Width" name="password" required>
+                        </form>
+                    </div>
+                </div>
+                <div style="display:flex; gap:2%">
+                    <button onclick="Authentication_SignUp()" type="button" class="theme-radial-gradient">Sign Up</button>
+                    <button onclick="Authentication_Login()" type="button" class="theme-radial-gradient">login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="storage" style="display:none;">
+        <div id="MainPage">
+            <h5>Firebase Media Upload</h5>
+            <div id="Outer" class="FormDesign Outer">
+                <div id="Inner">
+                    <div>
+                        <form id="Form">
+                            <label for="files"><b>Select Images or Videos:</b></label>
+                            <input type="file" id="fileInput" aria-describedby="fileInputDescription" accept="image/*,video/*" multiple>
+                            <p id="fileInputDescription" class="sr-only">This is the input to select image or video files.</p>
+                            <div>
+                                <button onclick="MediaUpload()" type="button" class="theme-radial-gradient">Upload Media</button>
+                            </div>
+                            <div id="previewContainer" class="preview-container"></div>
+                            <div id="mediaURLs"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="RealtimeDb" style="display:none;">
+        <div id="MainPage">
+            <h5>Firebase RealtimeDB (Insert)</h5>
+            <div id="Outer" class="FormDesign Outer">
+                <div id="Inner">
+                    <div>
+                        <form id="Form">
+                            <label for="user">User ID:</label>
+                            <input type="tel" id="user" class="field-Width" name="user" required>
+
+                            <label for="name">User Name:</label>
+                            <input type="text" id="name" class="field-Width" name="name" required>
+
+                            <label for="passwordInsert">password:</label>
+                            <input type="password" id="passwordInsert" class="field-Width" name="passwordInsert" required>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <button onclick="Realtime_Insert()" type="button" class="theme-radial-gradient">Insert</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Notification" style="display:none;">
+
+    </div>
+
+</body>
+</html>
+
+@* Firebase SDK *@
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<script>
+    // FireBase Config
+    const firebaseConfig = {
+        apiKey: "AIzaSyAr5sDEEcfkHCmHt8TY-efrOEO-8mkidY8",
+        authDomain: "imgupload-bdc75.firebaseapp.com",
+        projectId: "imgupload-bdc75",
+        storageBucket: "imgupload-bdc75.appspot.com",
+        messagingSenderId: "590266629541",
+        appId: "1:590266629541:web:fa232d00de791f88fbbc4c",
+        measurementId: "G-D16PQMB1TR"
+    };
+
+    //Initializing FireB
+    firebase.initializeApp(firebaseConfig);
+
+    // Get references to Firebase services
+    const auth = firebase.auth();
+    const storage = firebase.storage();
+    const database = firebase.database();
+
+    // Authentication Register
+    function Authentication_SignUp() {
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        auth.createUserWithEmailAndPassword(email, password)
+            .then(userCredential => {
+                Swal.fire('User registered.');
+                console.log('User registered:', userCredential);
+
+                document.getElementById('email').value = "";
+                document.getElementById('password').value = "";
+            })
+            .catch(error => {
+                Swal.fire(error.message);
+                console.error('Error registering user:', error.message);
+
+                document.getElementById('email').value = "";
+                document.getElementById('password').value = "";
+            });
+    }
+
+    // Authentication login
+    function Authentication_Login() {
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        auth.signInWithEmailAndPassword(email, password)
+            .then(userCredential => {
+                Swal.fire('User Login');
+                console.log('User logged in:', userCredential.user);
+
+                document.getElementById('email').value = "";
+                document.getElementById('password').value = "";
+            })
+            .catch(error => {
+                Swal.fire(error.message);
+                console.error('Error logging in user:', error);
+
+                document.getElementById('email').value = "";
+                document.getElementById('password').value = "";
+            });
+    }
+
+    //Preview upload
+    let selectedFiles = [];
+
+    document.getElementById('fileInput').addEventListener('change', event => {
+        selectedFiles = Array.from(event.target.files);
+        const previewContainer = document.getElementById('previewContainer');
+        previewContainer.innerHTML = '';
+        selectedFiles.forEach(file => {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const fileType = file.type.split('/')[0];
+                const previewElement = document.createElement(fileType === 'image' ? 'img' : 'video');
+                previewElement.classList.add('preview');
+                previewElement.src = e.target.result;
+                if (fileType === 'video') {
+                    previewElement.controls = true;
+                }
+                previewContainer.appendChild(previewElement);
+            }
+            reader.readAsDataURL(file);
+        });
+    });
+
+    //Media upload
+    function MediaUpload() {
+        if (selectedFiles.length > 0 && auth.currentUser) {
+            const uploadedURLs = [];
+            const uploadPromises = selectedFiles.map(file => uploadMedia(file, auth.currentUser, uploadedURLs));
+            Promise.all(uploadPromises).then(() => {
+                const mediaURLsContainer = document.getElementById('mediaURLs');
+                mediaURLsContainer.innerHTML = uploadedURLs.map(url => `<a href="${url}" target="_blank">${url}</a>`).join('<br>');
+            });
+        } else {
+            Swal.fire('Please select files first and make sure you are logged in.');
+        }
+    }
+
+    function uploadMedia(file, user, uploadedURLs) {
+        const storageRef = storage.ref();
+        const mediaRef = storageRef.child('media/' + user.uid + '/' + file.name);
+
+        return mediaRef.put(file)
+            .then(snapshot => {
+                console.log('Uploaded a blob or file!');
+                return mediaRef.getDownloadURL();
+            })
+            .then(downloadURL => {
+                console.log('File available at', downloadURL);
+                uploadedURLs.push(downloadURL);
+                const mediaElement = document.createElement(file.type.split('/')[0] === 'image' ? 'img' : 'video');
+                mediaElement.src = downloadURL;
+                mediaElement.classList.add('preview');
+                if (file.type.split('/')[0] === 'video') {
+                    mediaElement.controls = true;
+                }
+                document.getElementById('mediaURLs').appendChild(mediaElement);
+            })
+            .catch(error => {
+                Swal.fire('Error uploading file:')
+                console.error('Error uploading file:', error);
+            });
+    }
+
+    // Realtime Database Insert
+    function Realtime_Insert() {
+        const id = document.getElementById('user').value;
+        const name = document.getElementById('name').value;
+        const password = document.getElementById('passwordInsert').value;
+
+        const hashedPassword = btoa(password); // Simple base64 encoding, replace with a real hash
+        const dataRef = database.ref('InsertByUmesh');
+
+        // Push new data to the 'InsertByUmesh' node
+        dataRef.push({
+            User_ID: id,
+            Name: name,
+            Password: hashedPassword,
+            Timestamp: new Date().toISOString()
+        })
+            .then(() => {
+                Swal.fire('Data inserted successfully');
+            })
+            .catch(error => {
+                Swal.fire('Error inserting data:', error);
+            });
+    }
+
+    function Firebase_Authentication() {
+        $('#main').css('display', 'none');
+        $('#storage').css('display', 'none');
+        $('#RealtimeDb').css('display', 'none');
+
+        $('#authenticate').css('display', 'block');
+    }
+
+    function Firebase_Storage() {
+        $('#main').css('display', 'none');
+        $('#authenticate').css('display', 'none');
+        $('#RealtimeDb').css('display', 'none');
+
+        $('#storage').css('display', 'block');
+    }
+
+    function Firebase_RealtimeDb() {
+        $('#main').css('display', 'none');
+        $('#storage').css('display', 'none');
+        $('#authenticate').css('display', 'none');
+
+        $('#RealtimeDb').css('display', 'block');
+    }
+
+    function Firebase_Notification() {
+        $('#main').css('display', 'none');
+    }
+
+    $('#HeaderChange').html('Google Firebase');
+</script>
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Styling for the navbar */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-button {
+        background-color: #0f2433;
+        border: none;
+        color: white;
+        padding: 3px 6px;
+        margin: 0 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .nav-button:hover {
+       background-color: #242157;
+    }
+
+   /* Styling for the main content */
+    main {
+        padding: 15px;
+        text-align: center;
+    }
+
+    #field-Width {
+        font-size: 75%;
+    }
+
+    .FormDesign {
+        display: block; 
+        max-width: 400px; 
+        margin: 0 auto;
+        padding: 20px; 
+        border: 1px solid #ccc; 
+        background-color: #f9f9f9; 
+    }
+
+    .FormDesign label {
+        display: block; 
+    }
+
+    .FormDesign input[type="text"],
+    .FormDesign input[type="password"] {
+        width: 100%; 
+        padding: 8px;
+        margin-bottom: 15px; 
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+    }
+
+    .FormDesign button {
+        width: 100%; 
+        padding: 10px; 
+        background-color: #4CAF50; 
+        color: white;
+        border: none;
+        border-radius: 4px; 
+        cursor: pointer; 
+    }
+
+    .FormDesign button:hover {
+        background-color: #45a049;
+    }
+
+    .Outer {
+        background-color: aliceblue;
+    }
+
+    .field-Width {
+        height: 75%;
+    }
+
+    h5{
+        display: contents;  
+        background: #9ed7dd70;
+        font-size: 1.25rem;
+    }
+
+    #Form{
+        text-align: left;
+    }
+
+    .preview {
+        max-width: 150px;
+        max-height: 150px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    #previewContainer{
+        text-align:center;
+    }
+</style>
