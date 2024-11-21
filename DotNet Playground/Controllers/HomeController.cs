@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Microsoft.Data.SqlClient;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace DotNet_Playground.Controllers
 {
@@ -289,5 +290,90 @@ namespace DotNet_Playground.Controllers
             return Json(connectionStringsJson);
 
         }
+
+        public JsonResult Export_Excel()
+        {
+            // ADO.NET provider for SQL Server
+            //using Microsoft.Data.SqlClient; or //using System.Data.SqlClient; is used for ADO.NET
+            List<Std_details> mydata = new List<Std_details>();
+            string connectionString = "Server=DEV-UMESH\\SQLEXPRESS;User ID=sa;Password=master@123;Database=YourDB;Encrypt=True;TrustServerCertificate=True;";
+            string query = "SELECT * FROM Std_detail";
+            // Create a connection object
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                // Create a SqlCommand object
+                SqlCommand command = new SqlCommand(query, connection);
+
+                // Create a DataAdapter to fill the DataSet
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+
+                // Create a DataSet to hold the result set
+                DataSet dataSet = new DataSet();
+
+                // Fill the DataSet with data from the database
+                dataAdapter.Fill(dataSet, "DsName");
+
+                // Now the DataSet contains the result of the query
+                // Access the first table in the DataSet
+                DataTable dataTable = dataSet.Tables[0];
+
+                // Iterate through the rows of the DataTable
+                if (dataSet.Tables["DsName"].Rows.Count > 0)
+                {
+                    foreach (DataRow dr in dataSet.Tables["DsName"].Rows)
+                    {
+                        Std_details obj = new Std_details();
+                        // Access data by column name (e.g., "ColumnName")
+                        obj.id = dr["id"].ToString();
+                        obj.name = dr["name"].ToString();
+                        obj.roll = dr["roll"].ToString();
+
+                        mydata.Add(obj);
+                    }
+                }
+
+            }
+            return Json(mydata);
+        }
+        
+        [HttpPost]
+        public JsonResult Import_Excel(Std_details insdata)
+        {
+            // Connection string for SQL Server
+            string connectionString = "Server=DEV-UMESH\\SQLEXPRESS;User ID=sa;Password=master@123;Database=YourDB;Encrypt=True;TrustServerCertificate=True;";
+
+            // SQL query with parameters
+            string query = "INSERT INTO Std_detail (id, name, roll) VALUES (@id, @name, @roll)";
+
+            // Create a connection object
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                // Create a SqlCommand object
+                SqlCommand command = new SqlCommand(query, connection);
+
+                // Define parameters and their values
+                command.Parameters.AddWithValue("@id", insdata.id);
+                command.Parameters.AddWithValue("@name", insdata.name);
+                command.Parameters.AddWithValue("@roll", insdata.roll);
+
+                try
+                {
+                    // Open the connection
+                    connection.Open();
+
+                    // Execute the command (insert data)
+                    command.ExecuteNonQuery();
+
+                    return Json("Data insert successful");
+                }
+                catch (Exception ex)
+                {
+                    // Handle any errors
+                    return Json($"Error: {ex.Message}");
+                }
+            }
+        }
     }
+
+    
 }

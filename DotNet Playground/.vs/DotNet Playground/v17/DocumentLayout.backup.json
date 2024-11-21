@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\firebase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\firebase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\createconnectionstring.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\createconnectionstring.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\createdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\createdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\models\\dynamicdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:models\\dynamicdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\excel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\excel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\models\\std_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:models\\std_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\firebase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\firebase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\createdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\createdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\createconnectionstring.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\createconnectionstring.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\htmlcssjs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\htmlcssjs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,56 +50,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Std_details.cs",
+              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Models\\Std_details.cs",
+              "RelativeDocumentMoniker": "Models\\Std_details.cs",
+              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Models\\Std_details.cs",
+              "RelativeToolTip": "Models\\Std_details.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:50:04.383Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Excel.cshtml",
+              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Excel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Excel.cshtml",
+              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Excel.cshtml",
+              "RelativeToolTip": "Views\\Home\\Excel.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAAD4v5QAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T09:55:29.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HTMLcssJS.cshtml",
+              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\HTMLcssJS.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\HTMLcssJS.cshtml",
+              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\HTMLcssJS.cshtml",
+              "RelativeToolTip": "Views\\Home\\HTMLcssJS.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T13:30:52.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CreateConnectionString.cshtml",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\CreateConnectionString.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CreateConnectionString.cshtml",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\CreateConnectionString.cshtml",
               "RelativeToolTip": "Views\\Home\\CreateConnectionString.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAIBJwIAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T08:56:09.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T08:56:09.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Firebase.cshtml",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Firebase.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Firebase.cshtml",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Firebase.cshtml",
               "RelativeToolTip": "Views\\Home\\Firebase.cshtml",
-              "ViewState": "AgIAAAoBAAAAAAAAAAAYwPoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAqwDoBAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T07:01:41.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T07:01:41.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAvwFQBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T06:58:57.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-09T06:52:33.746Z",
               "EditorCaption": ""
@@ -99,54 +142,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DynamicDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Models\\DynamicDatabase.cs",
-              "RelativeDocumentMoniker": "Models\\DynamicDatabase.cs",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Models\\DynamicDatabase.cs",
-              "RelativeToolTip": "Models\\DynamicDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T10:56:33.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-20T10:35:34.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T10:35:34.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-20T09:36:32.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CreateDb.cshtml",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\CreateDb.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CreateDb.cshtml",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\CreateDb.cshtml",
               "RelativeToolTip": "Views\\Home\\CreateDb.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwD4AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T09:30:24.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:30:24.891Z"
             }
           ]
         }

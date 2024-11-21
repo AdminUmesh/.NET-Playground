@@ -1,38 +1,22 @@
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\appsettings.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\bundleconfig.json
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.staticwebassets.runtime.json
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.exe
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.deps.json
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.runtimeconfig.json
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\DotNet Playground.pdb
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.AssemblyInfoInputs.cache
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.AssemblyInfo.cs
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.csproj.CoreCompileInputs.cache
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.RazorAssemblyInfo.cache
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.RazorAssemblyInfo.cs
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.sourcelink.json
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.DotNet Playground.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNet Playground.props
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNet Playground.props
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNet Playground.props
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\bundle\DotNet Playground.styles.css
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\projectbundle\DotNet Playground.bundle.scp.css
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\refint\DotNet Playground.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.pdb
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.genruntimeconfig.cache
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\ref\DotNet Playground.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.csproj.AssemblyReference.cache
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet P.08FE2301.Up2Date
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Google.Protobuf.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Humanizer.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\K4os.Hash.xxHash.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Build.dll
@@ -47,10 +31,20 @@ C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
@@ -59,6 +53,10 @@ C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\MySql.Data.EntityFramework.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\NuGet.Common.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\NuGet.Configuration.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
@@ -68,6 +66,7 @@ C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -75,10 +74,15 @@ C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\ar\Humanizer.resources.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -218,35 +222,6 @@ C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\bundleconfig.json
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Google.Protobuf.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\K4os.Compression.LZ4.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\K4os.Hash.xxHash.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\MySql.Data.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\MySql.Data.EntityFramework.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
@@ -275,3 +250,28 @@ C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.csproj.AssemblyReference.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.AssemblyInfoInputs.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.AssemblyInfo.cs
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.csproj.CoreCompileInputs.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.RazorAssemblyInfo.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.RazorAssemblyInfo.cs
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.sourcelink.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.DotNet Playground.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNet Playground.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNet Playground.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNet Playground.props
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\bundle\DotNet Playground.styles.css
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\scopedcss\projectbundle\DotNet Playground.bundle.scp.css
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet P.08FE2301.Up2Date
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\refint\DotNet Playground.dll
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.pdb
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.genruntimeconfig.cache
+C:\Users\CSAT\Desktop\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\ref\DotNet Playground.dll
