@@ -1,0 +1,86 @@
+﻿<div id="MainPage" style="display:flex; justify-content: space-between;">
+    <div id="ProblemList">
+        <div>
+            <p onclick="DDS();">
+                ╰┈➤ Create a dropdown with search
+            </p>
+        </div>
+        
+    </div>
+
+    <div class="dashed-line"></div>
+   
+    <div id="solution">
+        @* ╰┈➤Create a dropdown with search *@
+        <div id="DDS" style="display:none;">
+            <label>Select Option:</label>
+            <div style="position:relative;">
+                <input id="inputOrSelect" placeholder="Type here..." onfocus="document.getElementById('inputOrSelectDropdown').style.display='block'" oninput="filterOptions()" />
+                <select id="inputOrSelectDropdown" size="7" style="position: absolute; top: 100%;display: none; width: 100%;" onchange="setInputValue()">
+                    <option>--Select--</option>
+                </select>
+            </div>
+            <button onclick="ShowDDS();">Click to Check data</button>
+        </div>
+    </div>
+</div>
+
+<style>
+    .dashed-line{
+        border-left: 1px dashed #000;
+        height: 100vh;
+        width: 0;
+    }
+</style>
+
+<script>
+    //╰┈➤ Create a dropdown with search
+    function DDS() {
+        $('#DDS').css('display', 'block');
+        
+        const staticData = [
+            { kitCode: '001', kitDesc: 'Option 1' },
+            { kitCode: '002', kitDesc: 'Option 2' },
+            { kitCode: '003', kitDesc: 'Option 3' },
+        ];
+        populateDropdown(staticData); 
+    }
+
+    function populateDropdown(data) {
+        debugger;
+        const select = document.getElementById("inputOrSelectDropdown");
+        select.innerHTML = '<option>--Select--</option>'; // Reset the dropdown
+
+        data.forEach(data => {
+            debugger;
+            const option = document.createElement('option');
+            option.value = data.kitCode; // Set the value to kitCode
+            option.textContent = data.kitDesc.trim(); // Set the text to kitDesc only
+            select.appendChild(option); // Append the option to the dropdown
+        });
+    }
+
+    // Filter the dropdown options based on the input
+    function filterOptions() {
+        const input = document.getElementById("inputOrSelect");
+        const select = document.getElementById("inputOrSelectDropdown");
+        const filter = input.value.toLowerCase();
+
+        Array.from(select.options).forEach(o => {
+            o.style.display = o.text.toLowerCase().includes(filter) ? 'block' : 'none';
+        });
+    }
+
+    // Set the input field value when an option is selected
+    function setInputValue() {
+        const select = document.getElementById("inputOrSelectDropdown");
+        const input = document.getElementById("inputOrSelect");
+
+        input.value = select.options[select.selectedIndex].text; // Set input to selected text
+        select.style.display = 'none'; // Hide the dropdown after selection
+    }
+
+    function ShowDDS() {
+        alert($('#inputOrSelect').val());
+    }
+</script>

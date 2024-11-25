@@ -1,0 +1,17 @@
+﻿@{
+    // Generate a random order ID
+    var random = new Random();
+    string orderId = "ORD" + DateTime.UtcNow.ToString("yyyyMMddHHmmss") + random.Next(1000, 9999);
+
+    // Assuming paytmParams is defined elsewhere
+    var paytmParams = ViewBag.PaytmParams as Dictionary<string, string>;
+    paytmParams["ORDER_ID"] = orderId; // Add the random order ID to Paytm params
+}
+
+<form action="https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction?mid=WZNFod03794553832872&orderId=@orderId" method="POST">
+    @foreach (var param in paytmParams)
+    {
+        <input type="hidden" name="@param.Key" value="@param.Value" />
+    }
+    <button type="submit">Pay Now</button>
+</form>

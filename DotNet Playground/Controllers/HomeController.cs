@@ -7,16 +7,23 @@ using Newtonsoft.Json.Linq;
 using Microsoft.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using System.Data;
+using System.Net;
+using Paytm;
+using Microsoft.Extensions.Configuration;
+using System.Collections.Generic;
+using DotNet_Playground.Helpers;
 
 namespace DotNet_Playground.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IConfiguration _configuration;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {
             _logger = logger;
+            _configuration = configuration;
         }
 
         public IActionResult Index()
@@ -371,6 +378,64 @@ namespace DotNet_Playground.Controllers
                     // Handle any errors
                     return Json($"Error: {ex.Message}");
                 }
+            }
+        }
+
+        public IActionResult InitiatePayment()
+        {
+
+            // Collect payment details (this should come from your database or UI)
+            string orderId = "umesh001";
+            string txnAmount = "100.00"; // Example amount
+
+            // Create request parameters
+            var parameters = new Dictionary<string, string>
+            {
+                { "MID", _configuration["Paytm:MerchantId"] },
+                { "WEBSITE", _configuration["Paytm:Website"] },
+                { "CHANNEL_ID", _configuration["Paytm:ChannelId"] },
+                { "INDUSTRY_TYPE_ID", _configuration["Paytm:IndustryTypeId"] },
+                { "ORDER_ID", orderId },
+                { "TXN_AMOUNT", txnAmount },
+                { "CUST_ID", "CUSTOMER_001" },
+                { "MOBILE_NO", "1234567890" },
+                { "EMAIL", "test@example.com" },
+                { "CALLBACK_URL", "https://yourwebsite.com/payment/callback" }
+            };
+
+            // Generate checksum
+            string checksum = PaytmHelper.GenerateChecksum(parameters, _configuration["Paytm:MerchantKey"]);
+
+            // Add checksum to parameters
+            parameters.Add("CHECKSUMHASH", checksum);
+
+            // Return a view with these parameters for frontend submission
+            ViewBag.PaytmParams = parameters;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Callback()
+        {
+            // Collect the response from Paytm
+            var responseParams = Request.Form.ToDictionary(x => x.Key, x => x.Value.ToString());
+
+            // Verify checksum for the response
+            bool isValidChecksum = PaytmHelper.VerifyChecksum(responseParams, responseParams["CHECKSUMHASH"], _configuration["Paytm:MerchantKey"]);
+
+            if (isValidChecksum)
+            {
+                // Transaction successful
+                string status = responseParams["STATUS"];
+                string orderId = responseParams["ORDERID"];
+
+                // Handle successful payment (update your database, etc.)
+                return View("Success");
+            }
+            else
+            {
+                // Checksum verification failed
+                return View("Failure");
             }
         }
     }

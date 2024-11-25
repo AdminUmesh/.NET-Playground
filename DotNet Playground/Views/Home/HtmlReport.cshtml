@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Report</title>
+    <style>
+        /* Add some basic styling for the button */
+        .generate-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #00796b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .generate-button:hover {
+                background-color: #005f4f;
+            }
+    </style>
+</head>
+<body>
+    <!-- Button to trigger the report generation -->
+    <button class="generate-button" onclick="generateReport()">Generate Report</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+
+    <script>
+        function generateReport() {
+            // Dummy data for company and report
+            const aa = [
+                {
+                    compCode: "ABC123",
+                    compName: "XYZ Corporation",
+                    add1: "123 Business St.",
+                    city: "Agra",
+                    state: "UP",
+                    pin: "201310",
+                    phone: "123-456-7890",
+                    email: "contact@xyzcorp.com"
+                }
+            ];
+
+            const companyDetails = `
+                            <div style="text-align: center; letter-spacing: 1px;">
+                                <h1 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; letter-spacing: 2px;">${aa[0].compCode} - ${aa[0].compName}</h1>
+                                <p style="font-size: 16px; letter-spacing: 3px;">${aa[0].add1}, ${aa[0].city}, ${aa[0].state}, ${aa[0].pin}</p>
+                                <p style="font-size: 16px; letter-spacing: 3px;">Phone: ${aa[0].phone}</p>
+                                <p style="font-size: 16px; letter-spacing: 3px;">Email: ${aa[0].email}</p>
+                            </div>`;
+
+            const reportHtml = `
+                        <html>
+                            <head>
+                                <style>
+                                    body {
+                                        font-family: 'Times New Roman', serif;
+                                        margin: 0;
+                                        padding: 0;
+                                        width: 210mm;
+                                        height: 297mm;
+                                        background-color: #f5f5f5;
+                                    }
+                                    .container {
+                                        width: 210mm;
+                                        height: 297mm;
+                                        margin: auto;
+                                        padding: 20mm;
+                                        background: #ffffff;
+                                        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+                                        border: 1px solid #00796b;
+                                        font-size: 14px;
+                                    }
+                                    h1, h2 {
+                                        text-align: center;
+                                        color: #333;
+                                    }
+                                    table {
+                                        width: 100%;
+                                        border-collapse: separate;
+                                        margin-top: 20px;
+                                    }
+                                    th, td {
+                                        padding: 8px;
+                                        text-align: left;
+                                        font-size: 12px;
+                                        border: none;
+                                    }
+                                    th {
+                                        text-align: left;
+                                        font-weight: bold;
+                                        background-color: #f8f8f8;
+                                        color: black;
+                                    }
+                                </style>
+                            </head>
+                            <body>
+                                <div class="container">
+                                    ${companyDetails}
+                                    <hr style="border-top: 1px dashed #000; margin-top: 12px;">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Item Code</th>
+                                                <th>Item Name</th>
+                                                <th>UOM</th>
+                                                <th>Rate</th>
+                                                <th>Quantity</th>
+                                                <th>Amount</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Example rows -->
+                                            <tr>
+                                                <td>Item001</td>
+                                                <td>Example Item</td>
+                                                <td>pcs</td>
+                                                <td>10</td>
+                                                <td>5</td>
+                                                <td>50</td>
+                                            </tr>
+
+                                                    <tr>
+                                                        <td>Item001</td>
+                                                        <td>Example Item</td>
+                                                        <td>pcs</td>
+                                                        <td>10</td>
+                                                        <td>5</td>
+                                                        <td>50</td>
+                                                    </tr>
+                                        </tbody>
+                                    </table>
+                                            <div style="display:flex; justify-content: space-around; color:blue;">
+                                            <div onclick="exportToExcel();">Export to Excel</div>
+                                             <div onclick="exportToPDF();">Export to PDF</div>
+                                             <div onclick="exportToWord();">Export to Word</div>
+                                    </div>
+                                </div>
+                            </body>
+                        </html>`;
+
+            // Open the popup window
+            const popupWindow = window.open("", "_blank", "width=900,height=1200,scrollbars=yes,resizable=yes");
+
+            // Check if the popup was blocked
+            if (popupWindow) {
+                // Load the content into the popup
+                popupWindow.document.body.innerHTML = reportHtml;
+            } else {
+                // Alert if the popup was blocked
+                alert("Popup blocked. Please allow popups and try again.");
+            }
+
+            // Export to Excel
+            popupWindow.exportToExcel = () => {
+                const tableHtml = popupWindow.document.querySelector("table").outerHTML;
+                const blob = new Blob([tableHtml], { type: "application/vnd.ms-excel" });
+                const url = URL.createObjectURL(blob);
+                const a = popupWindow.document.createElement("a");
+                a.href = url;
+                a.download = "Report.xls";
+                a.click();
+            };
+
+            // Export to PDF with footer (timestamp on left and page number on right)
+            popupWindow.exportToPDF = () => {
+                debugger;
+                const element = popupWindow.document.querySelector("table").outerHTML;;
+                const opt = {
+                    margin: 0,
+                    filename: 'Report.pdf',
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2 },
+                    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+                };
+
+                html2pdf().set(opt).from(element).save().then(function (pdf) {
+                    // Add Footer with Timestamp (Left) & Page Number (Right)
+                    debugger;
+                    const pageCount = pdf.internal.pages.length;
+                    for (let i = 1; i <= pageCount; i++) {
+                        pdf.setPage(i);
+                        pdf.setFontSize(10);
+
+                        // Add timestamp on left
+                        pdf.text('Generated on: ' + new Date().toLocaleString(), 10, 290);
+
+                        // Add page number on right
+                        pdf.text('Page ' + i + ' of ' + pageCount, 180, 290);
+                    }
+                    pdf.save();
+                });
+            };
+
+            // Export to Word (docx format)
+            popupWindow.exportToWord = () => {
+                const content = popupWindow.document.body.querySelector('.container').outerHTML;
+                const blob = new Blob([content], { type: "application/msword" });
+                const url = URL.createObjectURL(blob);
+                const a = popupWindow.document.createElement("a");
+                a.href = url;
+                a.download = "Report.doc";
+                a.click();
+            };
+        }
+    </script>
+</body>
+</html>
