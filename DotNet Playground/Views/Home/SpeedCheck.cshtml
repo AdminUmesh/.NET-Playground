@@ -1,0 +1,115 @@
+﻿<div class="navbarcon">
+    <div id="statusdiv">
+        <p id="status-message"></p>
+        <p id="speed-message"></p>
+    </div>
+
+    <div id="statusserver">
+        <p id="server-status"></p>
+    </div>
+
+    <!-- Label to display the user's name -->
+    <span id="lblname" style="color: white; float: left; margin: 0.6em 1em 0 0; font-size: 20px; text-transform: capitalize;"></span>
+</div>
+
+<script>
+    setupSpeedMeasurementRefresh();
+    updateOnlineStatus();
+
+    function setupSpeedMeasurementRefresh() {
+        // Refresh speed measurement every 30 seconds
+        setInterval(measureSpeed, 1000); // Changed to 30 seconds for performance reasons
+    }
+
+    function measureSpeed() {
+        const speedElement = document.getElementById('speed-message');
+        const image = new Image();
+        const startTime = (new Date()).getTime();
+        const speedThreshold = 2; // Set the threshold speed in MB/s
+
+        image.onload = () => {
+            const endTime = (new Date()).getTime();
+            const duration = (endTime - startTime) / 1000; // Duration in seconds
+            const fileSize = 2048; // 10MB image in KB
+            const speed = (fileSize / duration); // Speed in KB/s
+            const speedInMBps = speed / 1024; // Speed in MB/s
+
+            speedElement.innerText = `Speed: ${speedInMBps.toFixed(2)} MB/s`;
+
+            if (speedInMBps < speedThreshold) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Internet Speed Warning',
+                    text: `Your internet speed is ${speedInMBps.toFixed(2)} MB/s, which is below the acceptable threshold.`,
+                    background: '#f8d7da', // Light red background
+                    color: '#721c24', // Dark red text
+                    confirmButtonColor: '#d33' // Red confirm button
+                });
+            }
+        };
+
+        image.onerror = () => {
+            speedElement.innerText = 'Speed: Error';
+        };
+
+        image.src = `https://about.google/assets-main/img/glue-google-color-logo.svg?cache-buster=${new Date().getTime()}`;
+    }
+
+    function updateOnlineStatus() {
+        const statusElement = document.getElementById('status-message');
+        if (navigator.onLine) {
+            statusElement.innerText = 'Online';
+            statusElement.className = 'online';
+            //logStatus('Online');
+        } else {
+            statusElement.innerText = 'Offline';
+            statusElement.className = 'offline';
+            logStatus('Offline');
+
+            showRetryAlert();
+        }
+    }
+
+    function showRetryAlert() {
+        Swal.fire({
+            title: 'Internet not working at user side or slow',
+            text: 'Would you like to try again?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Re-try',
+            cancelButtonText: 'Cancel'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                updateOnlineStatus();
+            }
+        });
+    }
+
+    function showRetryServerAlert() {
+
+        Swal.fire({
+            title: 'Server Unreachable',
+            text: 'It looks like we’re having trouble connecting to the server. Would you like to try again?',
+            icon: 'warning',
+            background: '#f2f2f2', // Light grey background
+            color: '#333', // Dark text color for readability
+            confirmButtonText: 'Try Again',
+            cancelButtonText: 'No Thanks',
+            confirmButtonColor: '#007bff', // Blue button color
+            cancelButtonColor: '#6c757d', // Grey button color
+            customClass: {
+                container: 'my-custom-container',
+                popup: 'my-custom-popup',
+                title: 'my-custom-title',
+                text: 'my-custom-text',
+                confirmButton: 'my-custom-confirm-button',
+                cancelButton: 'my-custom-cancel-button'
+            }
+        }).then((result) => {
+
+            if (result.isConfirmed) {
+                updateOnlineStatus();
+            }
+        });
+    }
+</script>
