@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <div class="input-group">
+                <label for="username">ID:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <button type="button" id="login">Login</button>
+            </div>
+        </form>
+
+        <div>
+        <lebel for="token">Enter Your generated code here</lebel>
+        <input type="text" id="token" />
+        <button type="button" onclick="validate();">validate tocken</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById('login').addEventListener('click', function () {
+        $.ajax({
+            url: '../JWT/Loginrequest?id=' + $('#username').val() + '&pass=' + $('#password').val(),
+            type: "get",
+            success: function (data) {
+
+            },
+            error: function (err) {
+
+            }
+        });
+    });
+
+    function validate(){
+        
+        $.ajax({
+            url: '../JWT/validateTocken?token=' + $('#token').val(),
+            type: "get",
+            success: function (data) {
+                alert("Your id is "+ (data.username).split('#')[1]);
+            },
+            error: function (err) {
+                alert("Wrong id");
+            }
+        });
+    }
+</script>
+
+<style>
+
+    .login-container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+</style>

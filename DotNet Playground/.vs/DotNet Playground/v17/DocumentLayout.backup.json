@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\speedcheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\speedcheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\jwt\\jwtlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\jwt\\jwtlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\htmlreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\htmlreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\controllers\\jwtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:controllers\\jwtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\frontend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\frontend.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\createdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\createdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|c:\\users\\csat\\desktop\\git repo\\.net-playground\\dotnet playground\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFwBAAAAAAAAAAAgwDcBAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T06:58:57.865Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SpeedCheck.cshtml",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\SpeedCheck.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\SpeedCheck.cshtml",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\SpeedCheck.cshtml",
-              "RelativeToolTip": "Views\\Home\\SpeedCheck.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T05:20:22.176Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:25:18.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HtmlReport.cshtml",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\HtmlReport.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\HtmlReport.cshtml",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\HtmlReport.cshtml",
-              "RelativeToolTip": "Views\\Home\\HtmlReport.cshtml",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAkwNAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T06:23:45.348Z",
+              "Title": "JWTController.cs",
+              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Controllers\\JWTController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JWTController.cs",
+              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Controllers\\JWTController.cs",
+              "RelativeToolTip": "Controllers\\JWTController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAADwv1cAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:12:06.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T06:22:41.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Frontend.cshtml",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Frontend.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Frontend.cshtml",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Frontend.cshtml",
-              "RelativeToolTip": "Views\\Home\\Frontend.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T11:55:58.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAIAAAAAAAAAAABRwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-20T10:35:34.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAIBJwDEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T09:36:32.642Z"
+              "WhenOpened": "2024-11-27T05:20:15.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateDb.cshtml",
-              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\CreateDb.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\CreateDb.cshtml",
-              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\CreateDb.cshtml",
-              "RelativeToolTip": "Views\\Home\\CreateDb.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-20T09:30:24.891Z"
+              "WhenOpened": "2024-11-27T05:10:51.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JWTlogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\JWT\\JWTlogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\JWT\\JWTlogin.cshtml",
+              "ToolTip": "C:\\Users\\CSAT\\Desktop\\Git repo\\.NET-Playground\\DotNet Playground\\Views\\JWT\\JWTlogin.cshtml",
+              "RelativeToolTip": "Views\\JWT\\JWTlogin.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T05:08:29.246Z",
+              "EditorCaption": ""
             }
           ]
         }
