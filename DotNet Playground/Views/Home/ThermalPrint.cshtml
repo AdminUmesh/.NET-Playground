@@ -1,0 +1,23 @@
+﻿<html>
+    <head>
+        <title>Print Page</title>
+    </head>
+    <body>
+        <p>Printer name added in code</p>
+    <button onclick="TestPrint();">Print Sample</button>
+    </body>
+</html>
+<script>
+    function TestPrint() {
+        $.ajax({
+            url: "../Print/PrintBill",
+            type: "GET",
+            datatype: 'json',
+            success: function (DiscountData) {
+                alert("Page Print Successfully");
+            },
+
+        });
+    }
+</script>
+
