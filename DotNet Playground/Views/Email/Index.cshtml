@@ -1,0 +1,24 @@
+﻿@model DotNet_Playground.Models.EmailModel
+
+<h2>Send Email</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label>To:</label>
+        <input asp-for="ToEmail" class="form-control" />
+    </div>
+    <div>
+        <label>Subject:</label>
+        <input asp-for="Subject" class="form-control" />
+    </div>
+    <div>
+        <label>Body:</label>
+        <textarea asp-for="Body" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Send</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success mt-3">@ViewBag.Message</div>
+}
