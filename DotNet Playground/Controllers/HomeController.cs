@@ -12,6 +12,7 @@ using Paytm;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using DotNet_Playground.Helpers;
+using Microsoft.CodeAnalysis.Elfie.Diagnostics;
 
 namespace DotNet_Playground.Controllers
 {
@@ -19,11 +20,14 @@ namespace DotNet_Playground.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IConfiguration _configuration;
+        private readonly IWebHostEnvironment _env;
+        private readonly string _connString = "server=DEV-UMESH\\SQLEXPRESS;database=Cabsdata_229999;uid=sa;password=master@123;Max Pool Size=200;Encrypt=True;TrustServerCertificate=True;";
 
-        public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
+        public HomeController(ILogger<HomeController> logger, IConfiguration configuration, IWebHostEnvironment env)
         {
             _logger = logger;
             _configuration = configuration;
+            _env = env;
         }
 
         public IActionResult Index()
@@ -436,6 +440,124 @@ namespace DotNet_Playground.Controllers
             {
                 // Checksum verification failed
                 return View("Failure");
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Upload(IFormFile file, string name, string roll_no)
+        {
+            if (file != null && file.Length > 0 && !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(roll_no))
+            {
+                var uploadsFolder = Path.Combine(_env.WebRootPath, "uploads");
+                Directory.CreateDirectory(uploadsFolder);
+
+                var filePath = Path.Combine(uploadsFolder, file.FileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                try
+                {
+                    // Connection string to master DB to create new DB if needed
+                    string masterConnString = _connString.Replace("Initial Catalog=Cabsdata_229999;", "Initial Catalog=master;");
+
+                    using (SqlConnection masterConn = new SqlConnection(masterConnString))
+                    {
+                        masterConn.Open();
+
+                        // Step 1: Create DB if it doesn't exist
+                        string createDbQuery = @"
+                    IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'Cabsdata_229999')
+                    BEGIN
+                        CREATE DATABASE YourDatabaseName;
+                    END";
+                        SqlCommand createDbCmd = new SqlCommand(createDbQuery, masterConn);
+                        createDbCmd.ExecuteNonQuery();
+                    }
+
+                    using (SqlConnection conn = new SqlConnection(_connString))
+                    {
+                        conn.Open();
+
+                        // Step 2: Create Table if not exists
+                        string createTableQuery = @"
+                    IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Files')
+                    BEGIN
+                        CREATE TABLE Files (
+                            Id INT IDENTITY(1,1) PRIMARY KEY,
+                            Name NVARCHAR(100),
+                            Roll_No NVARCHAR(50),
+                            FileName NVARCHAR(255),
+                            FilePath NVARCHAR(500),
+                            UploadedOn DATETIME
+                        );
+                    END";
+                        SqlCommand createTableCmd = new SqlCommand(createTableQuery, conn);
+                        createTableCmd.ExecuteNonQuery();
+
+                        // Step 3: Insert the file record
+                        string insertQuery = @"
+                    INSERT INTO Files (Name, Roll_No, FileName, FilePath, UploadedOn)
+                    VALUES (@Name, @RollNo, @FileName, @FilePath, @UploadedOn)";
+                        SqlCommand insertCmd = new SqlCommand(insertQuery, conn);
+                        insertCmd.Parameters.AddWithValue("@Name", name);
+                        insertCmd.Parameters.AddWithValue("@RollNo", roll_no);
+                        insertCmd.Parameters.AddWithValue("@FileName", file.FileName);
+                        //insertCmd.Parameters.AddWithValue("@FilePath", filePath);
+                        var relativePath = "/uploads/" + file.FileName;
+                        insertCmd.Parameters.AddWithValue("@FilePath", relativePath);
+                        insertCmd.Parameters.AddWithValue("@UploadedOn", DateTime.Now);
+                        insertCmd.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "An error occurred: " + ex.Message });
+                }
+
+                return Json(new { success = true, message = "File uploaded successfully." });
+            }
+
+            return Json(new { success = false, message = "All fields are required." });
+        }
+
+        [HttpGet]
+        public IActionResult GetFiles()
+        {
+            var files = new List<object>();
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(_connString))
+                {
+                    string query = "SELECT Id, Name, Roll_No, FileName, FilePath, UploadedOn FROM Files";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+
+                    conn.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            files.Add(new
+                            {
+                                id = reader["Id"],
+                                name = reader["Name"],
+                                roll_No = reader["Roll_No"],
+                                fileName = reader["FileName"],
+                                filePath = reader["FilePath"],
+                                uploadedOn = Convert.ToDateTime(reader["UploadedOn"]).ToString("yyyy-MM-dd HH:mm:ss")
+                            });
+                        }
+                    }
+                }
+
+                return Json(files);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = ex.Message });
             }
         }
     }

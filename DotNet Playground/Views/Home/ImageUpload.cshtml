@@ -1,0 +1,150 @@
+﻿<button id="btnAjax">Upload Image Using Ajax</button>
+<button id="btnVanilla">Upload Image Using Vanilla JS</button>
+<button id="btnForm">Upload Image using Form</button>
+
+<br />
+<br />
+
+<!-- AJAX form -->
+<form id="ajaxForm" enctype="multipart/form-data" style="display:none;">
+    <label>Name:</label>
+    <input type="text" name="name" required /><br />
+
+    <label>Roll No:</label>
+    <input type="text" name="roll_no" required /><br />
+
+    <label>File:</label>
+    <input type="file" name="file" required /><br />
+
+    <button type="submit">Submit via AJAX</button>
+</form>
+
+<!-- Vanilla JS form -->
+<form id="vanillaForm" enctype="multipart/form-data" style="display:none;">
+    <label>Name:</label>
+    <input type="text" name="name" required /><br />
+
+    <label>Roll No:</label>
+    <input type="text" name="roll_no" required /><br />
+
+    <label>File:</label>
+    <input type="file" name="file" required /><br />
+
+    <button type="submit">Submit via Vanilla JS</button>
+</form>
+
+<!-- Normal Form POST -->
+<form id="normalForm" method="post" enctype="multipart/form-data" action="/Home/Upload" style="display:none;">
+    <label>Name:</label>
+    <input type="text" name="name" required /><br />
+
+    <label>Roll No:</label>
+    <input type="text" name="roll_no" required /><br />
+
+    <label>File:</label>
+    <input type="file" name="file" required /><br />
+
+    <button type="submit">Submit via Form POST</button>
+</form>
+
+<br />
+<button id="displayBtn">Display Records</button>
+<div id="records"></div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        // Initially show no form or maybe one by default
+        function hideAllForms() {
+            $('#ajaxForm').hide();
+            $('#vanillaForm').hide();
+            $('#normalForm').hide();
+        }
+
+        // Show the form for selected mode
+        $('#btnAjax').click(function () {
+            hideAllForms();
+            $('#ajaxForm').show();
+        });
+
+        $('#btnVanilla').click(function () {
+            hideAllForms();
+            $('#vanillaForm').show();
+        });
+
+        $('#btnForm').click(function () {
+            hideAllForms();
+            $('#normalForm').show();
+        });
+
+        // AJAX form submission
+        $('#ajaxForm').submit(function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+
+            $.ajax({
+                url: '/Home/Upload',
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    alert(response.message || 'Upload successful');
+                },
+                error: function () {
+                    alert('Error in AJAX upload');
+                }
+            });
+        });
+
+        // Vanilla JS form submission
+        document.addEventListener('DOMContentLoaded', function () {
+            const vanillaForm = document.getElementById('vanillaForm');
+            vanillaForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                const formData = new FormData(vanillaForm);
+
+                fetch('/Home/Upload', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert(data.message || 'Upload successful');
+                    })
+                    .catch(() => {
+                        alert('Error in Vanilla JS upload');
+                    });
+            });
+        });
+
+        // Display Records button ajax call (works independently)
+        $('#displayBtn').click(function () {
+            $.ajax({
+                url: '/Home/GetFiles',
+                type: 'GET',
+                success: function (data) {
+                    let html = "<table border='1'><tr><th>ID</th><th>Name</th><th>Roll No</th><th>Image</th><th>Date</th></tr>";
+                    data.forEach(file => {
+                        html += `<tr>
+                                <td>${file.id}</td>
+                                <td>${file.name}</td>
+                                <td>${file.roll_No}</td>
+                                <td><img src="${file.filePath}" width="100" /></td>
+                                <td>${file.uploadedOn}</td>
+                            </tr>`;
+                    });
+                    html += "</table>";
+                    $('#records').html(html);
+                }
+            });
+        });
+
+        // Optional: show one form by default on page load (for example AJAX)
+        $(document).ready(function () {
+            $('#btnAjax').click();
+        });
+    </script>
+}

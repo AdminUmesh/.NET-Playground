@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNet Playground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac82b0ca21c87d84cc8e23cd6f38e0346efeb58e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d66f28a942630a710e335871cd4d7e0d72fcd77")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNet Playground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNet Playground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
