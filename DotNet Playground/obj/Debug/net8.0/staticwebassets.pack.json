@@ -1,272 +1,276 @@
 {
   "Files": [
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNet Playground.bundle.scp.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNet Playground.bundle.scp.css",
       "PackagePath": "staticwebassets\\DotNet Playground.bundle.scp.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\css\\site.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\favicon.ico",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\js\\site.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (1).png",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (1).png",
       "PackagePath": "staticwebassets\\uploads\\Screenshot (1).png"
     },
     {
-      "Id": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (6).png",
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (6).png",
       "PackagePath": "staticwebassets\\uploads\\Screenshot (6).png"
+    },
+    {
+      "Id": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (7).png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot (7).png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotNet Playground.Microsoft.AspNetCore.StaticWebAssets.props",

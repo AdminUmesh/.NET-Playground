@@ -1,9 +1,13 @@
+using DotNet_Playground.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-// Add services to the container.
 builder.Services.AddAuthentication("Cookies")
     .AddCookie(options =>
     {
@@ -13,16 +17,40 @@ builder.Services.AddAuthentication("Cookies")
         options.LogoutPath = "/Account/Logout"; // Redirect to this path on logout
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Set session cookie expiration
     });
-
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); // Set session timeout
 });
-
-// Add other services like session, authorization, etc.
 builder.Services.AddDistributedMemoryCache();  // To store session in memory
-var app = builder.Build();
 
+
+
+
+//<<================******* For JWT *******===================>>//
+builder.Services.AddDbContext<AppDbContext>(opt =>
+    opt.UseInMemoryDatabase("ProductDb"));
+
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = "myapp",
+            ValidAudience = "myapp",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MySuperSecretKey12345MySuperSecretKey12345MySuperSecretKey12345"))
+        };
+    });
+
+builder.Services.AddAuthorization();
+//<<=================******* JWT END *******=====================>>//
+
+
+
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -33,14 +61,14 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 app.UseSession();         // middleware
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
 
 app.Run();

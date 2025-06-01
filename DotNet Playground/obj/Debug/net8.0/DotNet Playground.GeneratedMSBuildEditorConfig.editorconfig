@@ -17,115 +17,115 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DotNet_Playground
 build_property.RootNamespace = DotNet_Playground
-build_property.ProjectDir = U:\Others\Git repo\.NET-Playground\DotNet Playground\
+build_property.ProjectDir = Z:\Git Repo\.NET-Playground\DotNet Playground\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = U:\Others\Git repo\.NET-Playground\DotNet Playground
+build_property.MSBuildProjectDirectory = Z:\Git Repo\.NET-Playground\DotNet Playground
 build_property._RazorSourceGeneratorDebug = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Pages/Error.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Pages/_Layout.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Pages/_ViewImports.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Pages/_ViewStart.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Email/Index.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Email/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/CreateConnectionString.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/CreateConnectionString.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVDb25uZWN0aW9uU3RyaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/CreateDb.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/CreateDb.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVEYi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/Excel.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/Excel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeGNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/Failure.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/Failure.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYWlsdXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/Firebase.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/Firebase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXJlYmFzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/Frontend.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/Frontend.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGcm9udGVuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/HTMLcssJS.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/HTMLcssJS.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIVE1MY3NzSlMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/HtmlReport.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/HtmlReport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIdG1sUmVwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/ImageUpload.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/ImageUpload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbWFnZVVwbG9hZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/Index.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/InitiatePayment.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/InitiatePayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbml0aWF0ZVBheW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/Privacy.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/SpeedCheck.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/SpeedCheck.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcGVlZENoZWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/Success.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Home/ThermalPrint.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Home/ThermalPrint.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGVybWFsUHJpbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/JWT/JWTlogin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSldUXEpXVGxvZ2luLmNzaHRtbA==
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/JWTView/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSldUVmlld1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Shared/Error.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/_ViewImports.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/_ViewStart.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[U:/Others/Git repo/.NET-Playground/DotNet Playground/Views/Shared/_Layout.cshtml]
+[Z:/Git Repo/.NET-Playground/DotNet Playground/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ljjdaj6b4b

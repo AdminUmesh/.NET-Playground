@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Product CRUD</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <h2>Login</h2>
+    <input id="username" placeholder="Username(a)" />
+    <input id="password" placeholder="Password(a)" />
+    <select id="role" name="role">
+        <option value="Manager">Manager</option>
+        <option value="Admin">Admin</option>
+    </select>
+    <button onclick="login()">Login</button>
+
+    <h2>Only Admin can access</h2>
+    <button onclick="adminCheck()">Check</button>
+
+    <h2>Only Manager can access</h2>
+    <button onclick="managerCheck()">Check</button>
+
+    <h2>Admin & Manager both can access</h2>
+    <button onclick="adminManagerCheck()">Check</button>
+
+    <script>
+        let token = "";
+
+        function login() {
+            const data = {
+                username: $("#username").val(),
+                password: $("#password").val(),
+                role: $("#role").val()  
+            };
+
+            $.ajax({
+                url: "/api/auth/login",
+                method: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                success: function (data) {
+                    token = data.token;
+                    alert("Logged in!");
+                }
+            });
+        }
+
+        function adminCheck() {
+            $.ajax({
+                url: "/api/check/admin",
+                method: "GET",
+                headers: { Authorization: "Bearer " + token },
+                success: function (data) {
+                    alert("access allowed");
+                },
+                error: function(){
+                    alert("access not allowed");
+                }
+            });
+        }
+
+        function managerCheck() {
+            const product = {
+                name: $("#name").val(),
+                price: parseFloat($("#price").val())
+            };
+
+            $.ajax({
+                url: "/api/check/manager",
+                method: "GET",
+                headers: { Authorization: "Bearer " + token },
+                success: function (data) {
+                    alert("access allowed");
+                },
+                error: function () {
+                    alert("access not allowed");
+                }
+            });
+        }
+
+        function adminManagerCheck() {
+            const product = {
+                name: $("#name").val(),
+                price: parseFloat($("#price").val())
+            };
+
+            $.ajax({
+                url: "/api/check/adminManager",
+                method: "GET",
+                headers: { Authorization: "Bearer " + token },
+                success: function (data) {
+                    alert("access allowed");
+                },
+                error: function () {
+                    alert("access not allowed");
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

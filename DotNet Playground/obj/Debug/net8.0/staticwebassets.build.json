@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gljUXuqBZVtEIXS4/NGTV99iSjI89k9xceZP0j5znsc=",
+  "Hash": "gFlMiIPjSTzhWnoIaYFdhrtDR2MWc/94EirzuPCz4ls=",
   "Source": "DotNet Playground",
   "BasePath": "_content/DotNet Playground",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DotNet Playground\\wwwroot",
       "Source": "DotNet Playground",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotNet Playground.styles.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotNet Playground.styles.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Computed",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "DotNet Playground.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotNet Playground.styles.css"
+      "OriginalItemSpec": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DotNet Playground.styles.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNet Playground.bundle.scp.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNet Playground.bundle.scp.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Computed",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "DotNet Playground.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNet Playground.bundle.scp.css"
+      "OriginalItemSpec": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNet Playground.bundle.scp.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\css\\site.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\css\\site.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\favicon.ico",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\favicon.ico",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\js\\site.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\js\\site.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (1).png",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (1).png",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "uploads/Screenshot (1).png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (1).png"
     },
     {
-      "Identity": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (6).png",
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (6).png",
       "SourceId": "DotNet Playground",
       "SourceType": "Discovered",
-      "ContentRoot": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
       "BasePath": "_content/DotNet Playground",
       "RelativePath": "uploads/Screenshot (6).png",
       "AssetKind": "All",
@@ -1307,6 +1307,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (6).png"
+    },
+    {
+      "Identity": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot (7).png",
+      "SourceId": "DotNet Playground",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "BasePath": "_content/DotNet Playground",
+      "RelativePath": "uploads/Screenshot (7).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (7).png"
     }
   ]
 }

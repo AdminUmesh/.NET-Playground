@@ -843,3 +843,15 @@ U:\Others\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\refint\Dot
 U:\Others\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.pdb
 U:\Others\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\DotNet Playground.genruntimeconfig.cache
 U:\Others\Git repo\.NET-Playground\DotNet Playground\obj\Debug\net8.0\ref\DotNet Playground.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+Z:\Git Repo\.NET-Playground\DotNet Playground\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll

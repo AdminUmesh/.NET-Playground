@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj": {}
+    "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj": {}
   },
   "projects": {
-    "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj": {
+    "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj",
+        "projectUniqueName": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj",
         "projectName": "DotNet Playground",
-        "projectPath": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj",
-        "packagesPath": "C:\\Users\\CSAT\\.nuget\\packages\\",
-        "outputPath": "U:\\Others\\Git repo\\.NET-Playground\\DotNet Playground\\obj\\",
+        "projectPath": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\DotNet Playground.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "Z:\\Git Repo\\.NET-Playground\\DotNet Playground\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CSAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,9 +48,21 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -102,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
