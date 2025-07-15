@@ -1,18 +1,12 @@
 using DotNet_Playground.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Diagnostics;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Microsoft.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using System.Data;
-using System.Net;
-using Paytm;
-using Microsoft.Extensions.Configuration;
-using System.Collections.Generic;
 using DotNet_Playground.Helpers;
-using Microsoft.CodeAnalysis.Elfie.Diagnostics;
 
 namespace DotNet_Playground.Controllers
 {
@@ -560,7 +554,101 @@ namespace DotNet_Playground.Controllers
                 return Json(new { success = false, message = ex.Message });
             }
         }
+
+        [HttpPost]
+        public IActionResult PlayWithFile(InputModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                string fileName = $"{model.SelectedDate:yyyy-MM-dd}.txt";
+                string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+
+                if (!Directory.Exists(folderPath))
+                    Directory.CreateDirectory(folderPath);
+
+                string fullPath = Path.Combine(folderPath, fileName);
+                string lineToWrite = $"{DateTime.Now:HH:mm:ss} - {model.Message}";
+
+                System.IO.File.AppendAllText(fullPath, lineToWrite + Environment.NewLine);
+
+                ViewBag.Message = "? Message saved successfully!";
+            }
+
+            // Populate file list after save
+            string dir = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            var files = Directory.GetFiles(dir, "*.txt").Select(Path.GetFileName).ToList();
+            ViewBag.FileList = files;
+            ViewBag.FilesFetched = true;
+
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult FetchFiles()
+        {
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            var files = Directory.Exists(folderPath)
+                ? Directory.GetFiles(folderPath, "*.txt").Select(Path.GetFileName).ToList()
+                : new List<string>();
+
+            ViewBag.FileList = files;
+            ViewBag.FilesFetched = true;
+            return View("PlayWithFile", new InputModel());
+        }
+
+        [HttpPost]
+        public IActionResult ReadFile(string fileName)
+        {
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            string fullPath = Path.Combine(folderPath, fileName);
+
+            string content = System.IO.File.Exists(fullPath)
+                ? System.IO.File.ReadAllText(fullPath)
+                : "? File not found.";
+
+            var files = Directory.GetFiles(folderPath, "*.txt")
+                .Select(Path.GetFileName).ToList();
+
+            ViewBag.FileList = files;
+            ViewBag.FilesFetched = true;
+            ViewBag.FileContent = content;
+
+            return View("PlayWithFile", new InputModel());
+        }
+
+        [HttpPost]
+        public IActionResult CheckText(string fileName, string searchText)
+        {
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            string fullPath = Path.Combine(folderPath, fileName);
+            string result;
+
+            if (!System.IO.File.Exists(fullPath))
+            {
+                result = "? File not found.";
+            }
+            else
+            {
+                string content = System.IO.File.ReadAllText(fullPath);
+                result = content.Contains(searchText)
+                    ? "? Text available"
+                    : "? Text not available";
+            }
+
+            // Refill file list and flags
+            var files = Directory.GetFiles(folderPath, "*.txt")
+                                 .Select(Path.GetFileName)
+                                 .ToList();
+
+            ViewBag.FileList = files;
+            ViewBag.FilesFetched = true;
+            ViewBag.TextCheckResult = result;
+
+            return View("PlayWithFile", new InputModel());
+        }
+
     }
 
-    
+
 }

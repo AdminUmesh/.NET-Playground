@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "ContainingType": "DotNet_Playground.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DotNet_Playground.Controllers.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNet_Playground.Controllers.JWTController",
+    "Method": "GetAdminData",
+    "RelativePath": "api/check/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNet_Playground.Controllers.JWTController",
+    "Method": "GetAdminMannagerData",
+    "RelativePath": "api/check/adminManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNet_Playground.Controllers.JWTController",
+    "Method": "GetMannagerData",
+    "RelativePath": "api/check/manager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
