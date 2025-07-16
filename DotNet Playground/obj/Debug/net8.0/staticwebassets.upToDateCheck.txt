@@ -65,3 +65,4 @@ wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\uploads\Screenshot (1).png
 wwwroot\uploads\Screenshot (6).png
 wwwroot\uploads\Screenshot (7).png
+wwwroot\uploads\Screenshot 2025-06-02 134518.png

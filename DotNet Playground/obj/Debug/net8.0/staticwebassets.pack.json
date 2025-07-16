@@ -273,6 +273,10 @@
       "PackagePath": "staticwebassets\\uploads\\Screenshot (7).png"
     },
     {
+      "Id": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot 2025-06-02 134518.png",
+      "PackagePath": "staticwebassets\\uploads\\Screenshot 2025-06-02 134518.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotNet Playground.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

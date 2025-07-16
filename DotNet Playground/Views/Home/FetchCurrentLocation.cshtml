@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Geolocation with Nominatim</title>
+</head>
+<body>
+    <h2>Get Current Location and Address</h2>
+    <button onclick="getLocation()">Get Address</button>
+    <p id="location"></p>
+    <p id="address"></p>
+
+    <script>
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(success, error);
+          } else {
+            document.getElementById("location").innerText = "Geolocation is not supported.";
+          }
+        }
+
+        function success(position) {
+          const lat = position.coords.latitude;
+          const lon = position.coords.longitude;
+
+          document.getElementById("location").innerText =
+            `Latitude: ${lat}, Longitude: ${lon}`;
+
+          // Fetch address from Nominatim (OpenStreetMap)
+          fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`)
+            .then(res => res.json())
+            .then(data => {
+              const address = data.display_name;
+              document.getElementById("address").innerText = `Address: ${address}`;
+            })
+            .catch(err => {
+              document.getElementById("address").innerText = "Error fetching address.";
+              console.error(err);
+            });
+        }
+
+        function error(err) {
+          document.getElementById("location").innerText = "Error getting location.";
+          console.error(err);
+        }
+    </script>
+</body>
+</html>

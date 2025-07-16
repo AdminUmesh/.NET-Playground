@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g9N5z8UthZuyb46FC5+ixga+7kmTIdbyY/So62nDwFw=",
+  "Hash": "Q4/PM5LDcbDVYUHJ0MF7tGFoJZ0upYhdRk7OrcAavck=",
   "Source": "DotNet Playground",
   "BasePath": "_content/DotNet Playground",
   "Mode": "Default",
@@ -1464,6 +1464,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Screenshot (7).png"
+    },
+    {
+      "Identity": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot 2025-06-02 134518.png",
+      "SourceId": "DotNet Playground",
+      "SourceType": "Discovered",
+      "ContentRoot": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\",
+      "BasePath": "_content/DotNet Playground",
+      "RelativePath": "uploads/Screenshot 2025-06-02 134518#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0pbr3sv1oy",
+      "Integrity": "DIkkUgJxh6SLxSvb06WAJrH0FVsS7ZXK4WEQ6aRftG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Screenshot 2025-06-02 134518.png"
     }
   ],
   "Endpoints": [
@@ -7122,6 +7143,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-7602ttEDx+pcopf++Yr3MRCi59yKjMUqIXy6ql2EJR4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Screenshot 2025-06-02 134518.0pbr3sv1oy.png",
+      "AssetFile": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot 2025-06-02 134518.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DIkkUgJxh6SLxSvb06WAJrH0FVsS7ZXK4WEQ6aRftG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 10:19:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0pbr3sv1oy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Screenshot 2025-06-02 134518.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DIkkUgJxh6SLxSvb06WAJrH0FVsS7ZXK4WEQ6aRftG8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Screenshot 2025-06-02 134518.png",
+      "AssetFile": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\uploads\\Screenshot 2025-06-02 134518.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DIkkUgJxh6SLxSvb06WAJrH0FVsS7ZXK4WEQ6aRftG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 10:19:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DIkkUgJxh6SLxSvb06WAJrH0FVsS7ZXK4WEQ6aRftG8="
         }
       ]
     }
