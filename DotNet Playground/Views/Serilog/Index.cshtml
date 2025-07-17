@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Serilog Demo";
+}
+
+<h2>Log Generator</h2>
+
+<form asp-action="LogSuccess" method="post">
+    <button type="submit" class="btn btn-success">Create Success Log</button>
+</form>
+
+<form asp-action="LogError" method="post" class="mt-2">
+    <button type="submit" class="btn btn-danger">Create Error Log</button>
+</form>
+
+<form asp-action="LogInfo" method="post" class="mt-2">
+    <button type="submit" class="btn btn-warning">Create Info Log</button>
+</form>

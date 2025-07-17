@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\views\\home\\fetchcurrentlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\fetchcurrentlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\serilog_logs\\log202507171612.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:serilog_logs\\log202507171612.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\controllers\\serilogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:controllers\\serilogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\views\\serilog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\serilog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\views\\home\\fetchcurrentlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\fetchcurrentlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\views\\home\\thermalprint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:views\\home\\thermalprint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\controllers\\printcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|solutionrelative:controllers\\printcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{730B327C-95C2-440F-B56C-9AFB76DE3054}|DotNet Playground.csproj|p:\\aimil workspace\\git repo\\.net-playground\\dotnet playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -50,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,33 +70,96 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "log202507171612.json",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Serilog_Logs\\log202507171612.json",
+              "RelativeDocumentMoniker": "Serilog_Logs\\log202507171612.json",
+              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Serilog_Logs\\log202507171612.json",
+              "RelativeToolTip": "Serilog_Logs\\log202507171612.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-17T10:43:15.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FetchCurrentLocation.cshtml",
-              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\FetchCurrentLocation.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\FetchCurrentLocation.cshtml",
-              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\FetchCurrentLocation.cshtml",
-              "RelativeToolTip": "Views\\Home\\FetchCurrentLocation.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T10:22:09.276Z",
+              "WhenOpened": "2025-07-17T10:12:47.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-17T08:48:07.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Serilog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Serilog\\Index.cshtml",
+              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Serilog\\Index.cshtml",
+              "RelativeToolTip": "Views\\Serilog\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T08:54:54.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T08:46:07.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PrintController.cs",
-              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Controllers\\PrintController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PrintController.cs",
-              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Controllers\\PrintController.cs",
-              "RelativeToolTip": "Controllers\\PrintController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Title": "SerilogController.cs",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Controllers\\SerilogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SerilogController.cs",
+              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Controllers\\SerilogController.cs",
+              "RelativeToolTip": "Controllers\\SerilogController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:12:28.248Z",
+              "WhenOpened": "2025-07-17T08:53:15.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "FetchCurrentLocation.cshtml",
+              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\FetchCurrentLocation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\FetchCurrentLocation.cshtml",
+              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\FetchCurrentLocation.cshtml",
+              "RelativeToolTip": "Views\\Home\\FetchCurrentLocation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T10:22:09.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ThermalPrint.cshtml",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\ThermalPrint.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ThermalPrint.cshtml",
@@ -92,12 +167,11 @@
               "RelativeToolTip": "Views\\Home\\ThermalPrint.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T10:11:29.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T10:11:29.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "additional-methods.js",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -105,38 +179,11 @@
               "RelativeToolTip": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "ViewState": "AgIAAJgAAAAAAAAAAAAiwKgAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-16T10:11:05.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T10:11:05.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAJMBAAAAAAAAAAAmwHUCAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:38:44.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAwwG0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T12:35:27.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ImageUpload.cshtml",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Views\\Home\\ImageUpload.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ImageUpload.cshtml",
@@ -148,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EmailController.cs",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Controllers\\EmailController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmailController.cs",
@@ -160,19 +207,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "EmailService.cs",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
               "ToolTip": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Services\\EmailService.cs",
               "RelativeToolTip": "Services\\EmailService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T12:35:27.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "EmailModel.cs",
               "DocumentMoniker": "P:\\Aimil WorkSpace\\git repo\\.NET-Playground\\DotNet Playground\\Models\\EmailModel.cs",
               "RelativeDocumentMoniker": "Models\\EmailModel.cs",

@@ -561,7 +561,7 @@ namespace DotNet_Playground.Controllers
             if (ModelState.IsValid)
             {
                 string fileName = $"{model.SelectedDate:yyyy-MM-dd}.txt";
-                string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+                string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "Text_Logs");
 
                 if (!Directory.Exists(folderPath))
                     Directory.CreateDirectory(folderPath);
@@ -575,7 +575,7 @@ namespace DotNet_Playground.Controllers
             }
 
             // Populate file list after save
-            string dir = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            string dir = Path.Combine(Directory.GetCurrentDirectory(), "Text_Logs");
             var files = Directory.GetFiles(dir, "*.txt").Select(Path.GetFileName).ToList();
             ViewBag.FileList = files;
             ViewBag.FilesFetched = true;
@@ -587,7 +587,7 @@ namespace DotNet_Playground.Controllers
         [HttpPost]
         public IActionResult FetchFiles()
         {
-            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "Text_Logs");
             var files = Directory.Exists(folderPath)
                 ? Directory.GetFiles(folderPath, "*.txt").Select(Path.GetFileName).ToList()
                 : new List<string>();
@@ -600,7 +600,7 @@ namespace DotNet_Playground.Controllers
         [HttpPost]
         public IActionResult ReadFile(string fileName)
         {
-            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "Text_Logs");
             string fullPath = Path.Combine(folderPath, fileName);
 
             string content = System.IO.File.Exists(fullPath)
@@ -620,7 +620,7 @@ namespace DotNet_Playground.Controllers
         [HttpPost]
         public IActionResult CheckText(string fileName, string searchText)
         {
-            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "Text_Logs");
             string fullPath = Path.Combine(folderPath, fileName);
             string result;
 

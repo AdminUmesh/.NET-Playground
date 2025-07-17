@@ -1,37 +1,38 @@
 using DotNet_Playground.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Serilog;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// ? Setup Serilog first so it can log during startup
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Warning)  // Suppress framework info logs
+    .MinimumLevel.Override("System", Serilog.Events.LogEventLevel.Warning)
+    .MinimumLevel.Information() // Allows your own Info logs
+    .WriteTo.File("Serilog_Logs/log.json", rollingInterval: RollingInterval.Minute) //log.txt or log.json
+    .Enrich.FromLogContext()
+    .ReadFrom.Configuration(builder.Configuration)  // Still supports appsettings.json if used
+    .CreateLogger();
+
+builder.Host.UseSerilog(); // ? Attach Serilog to ASP.NET pipeline
+
+// ?? Cookie Authentication
 builder.Services.AddAuthentication("Cookies")
     .AddCookie(options =>
     {
         options.Cookie.HttpOnly = true;
-        options.Cookie.IsEssential = true;  // Ensures cookie is sent in requests (even on browsers with cookie restrictions)
-        options.LoginPath = "/Account/Login"; // Redirect to this path when authentication is required
-        options.LogoutPath = "/Account/Logout"; // Redirect to this path on logout
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Set session cookie expiration
+        options.Cookie.IsEssential = true;
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
     });
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Set session timeout
-});
-builder.Services.AddDistributedMemoryCache();  // To store session in memory
 
-
-
-
-//<<================******* For JWT *******===================>>//
-builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseInMemoryDatabase("ProductDb"));
-
-builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer("Bearer", options =>
+// ?? JWT Authentication
+builder.Services.AddAuthentication()
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
@@ -41,34 +42,46 @@ builder.Services.AddAuthentication("Bearer")
             ValidateIssuerSigningKey = true,
             ValidIssuer = "myapp",
             ValidAudience = "myapp",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MySuperSecretKey12345MySuperSecretKey12345MySuperSecretKey12345"))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
+                "MySuperSecretKey12345MySuperSecretKey12345MySuperSecretKey12345"))
         };
     });
 
 builder.Services.AddAuthorization();
-//<<=================******* JWT END *******=====================>>//
 
+// ?? In-Memory DB for testing
+builder.Services.AddDbContext<AppDbContext>(opt =>
+    opt.UseInMemoryDatabase("ProductDb"));
 
+// ?? Session Setup
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+});
+
+// MVC
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-// Configure the HTTP request pipeline.
+
+// ?? Middleware Setup
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseSession();         // middleware
+app.UseSession(); // Session Middleware
 
+// ? Map MVC Routes
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}"
-    );
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
